@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="title">Ammar Alaee - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#welcome" class="logo">Ammar Alaee</a>
+            <ul class="nav-links">
+                <li><a href="#welcome" data-translate="nav_home">Home</a></li>
+                <li><a href="#services" data-translate="nav_services">Services</a></li>
+                <li><a href="#projects" data-translate="nav_projects">Projects</a></li>
+                <li><a href="#contact" data-translate="nav_contact">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <div class="language-switcher">
+                    <i class="fas fa-globe"></i>
+                    <div class="language-options">
+                        <button data-lang="en">EN</button>
+                        <button data-lang="ar">AR</button>
+                        <button data-lang="tr">TR</button>
+                    </div>
+                </div>
+                <button class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome">
+            <div id="particles-js"></div>
+            <div class="welcome-content">
+                <h1 class="typing" data-translate="welcome_title">Welcome, I'm Ammar Alaee</h1>
+                <p data-translate="welcome_subtitle">A passionate Software Developer creating modern and responsive web applications.</p>
+                <a href="#projects" class="btn" data-translate="welcome_button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2 class="section-title" data-translate="services_title">What I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-desktop"></i>
+                    <h3 data-translate="service_1_title">Desktop Applications</h3>
+                    <p data-translate="service_1_desc">Full stack desktop applications using: Windows Forms, SQL Server, and ADO.NET on .NET Framework with C#.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-database"></i>
+                    <h3 data-translate="service_2_title">Database Management</h3>
+                    <p data-translate="service_2_desc">Comprehensive database managing and designing, ensuring data integrity and performance.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3 data-translate="service_3_title">.NET Backend Development</h3>
+                    <p data-translate="service_3_desc">Robust and scalable backend development using the .NET Framework for powerful applications.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fab fa-python"></i>
+                    <h3 data-translate="service_4_title">Python Backend Development</h3>
+                    <p data-translate="service_4_desc">Flexible backend development using Django and Flask frameworks in Python for web services.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title" data-translate="projects_title">My Projects</h2>
+            <div class="projects-grid">
+                </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title" data-translate="contact_title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-user"></i>
+                    <span data-translate="contact_name">Full Name</span>
+                    <p data-translate="contact_name_value">Ammar Alaee</p>
+                </div>
+                 <div class="contact-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span data-translate="contact_age">Age</span>
+                    <p data-translate="contact_age_value">19</p>
+                </div>
+                <a href="mailto:ammar.alaee@example.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                    <p>ammar.alaee@example.com</p>
+                </a>
+                <a href="tel:+901234567890" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <span>Phone</span>
+                    <p>+90 123 456 7890</p>
+                </a>
+                <a href="#" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                    <p>github.com/ammar-alaee</p>
+                </a>
+                <a href="#" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                    <p>linkedin.com/in/ammar-alaee</p>
+                </a>
+                <a href="https://wa.me/905xxxxxxxxx" target="_blank" class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                    <p>+90 5XX XXX XX XX</p>
+                </a>
+                <a href="#" target="_blank" class="contact-card">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                    <p>youtube.com/@AmmarAlaee</p>
+                </a>
+                <a href="#" target="_blank" class="contact-card">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                    <p>@ammar.alaee</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-translate="footer_text">© 2025 Ammar Alaee. All rights reserved.</p>
+    </footer>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modal-img" src="" alt="Project Image">
+            <h3 id="modal-title"></h3>
+            <p id="modal-description"></p>
+            <div class="modal-buttons">
+                <a id="modal-code-btn" href="#" target="_blank" class="btn">View Code</a>
+                <a id="modal-video-btn" href="#" target="_blank" class="btn">Watch Video</a>
+                <a id="modal-live-btn" href="#" target="_blank" class="btn">Live Preview</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
