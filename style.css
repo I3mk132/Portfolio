@@ -177,6 +177,7 @@ body.dark-mode .language-switcher .language-options {
     text-align: center;
     position: relative;
     padding: 0 2rem;
+    width: 100%;
 }
 
 #particles-js {
@@ -219,6 +220,8 @@ section {
     margin-bottom: 4rem;
     font-weight: 700;
 }
+
+
 
 /* Services Section */
 .services-grid {

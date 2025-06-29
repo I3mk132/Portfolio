@@ -127,9 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
             codeUrl: "https://github.com/I3mk132/ConsoleBankProject", 
             videoUrl: "https://youtu.be/j9SWfiAekO8", 
             liveUrl: "https://drive.google.com/drive/folders/1iEavGdN-cgsEaYxb2ZyNYtDn2oPpin4o?usp=sharing" 
-        },
-        { title: "Portfolio Website Template", description: "The very portfolio you are looking at, built with HTML, CSS, and vanilla JavaScript.", image: "https://via.placeholder.com/400x250/d81b60/ffffff?text=Portfolio", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
-        { title: "Chat Application", description: "A real-time chat application using SignalR on the .NET backend for instant messaging.", image: "https://via.placeholder.com/400x250/039be5/ffffff?text=Chat+App", codeUrl: "#", videoUrl: "#", liveUrl: "#" }
+        }
     ];
 
     const projectsGrid = document.querySelector('.projects-grid');
@@ -181,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "opacity": { "value": 0.5, "random": false },
                 "size": { "value": 3, "random": true },
                 "line_linked": { "enable": true, "distance": 150, "color": "#e53935", "opacity": 0.4, "width": 1 },
-                "move": { "enable": true, "speed": 4, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false }
+                "move": { "enable": true, "speed": 2, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false }
             },
             "interactivity": {
                 "detect_on": "canvas",
