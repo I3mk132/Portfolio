@@ -20,10 +20,13 @@
     "projects_title": "My Projects",
     "contact_title": "Get In Touch",
     "contact_name": "Full Name",
-    "contact_name_value": "Ammar Alaee",
+    "contact_name_value": "Ammar Hussein Alaee",
     "contact_age": "Age",
     "contact_age_value": "19",
-    "footer_text": "© 2025 Ammar Alaee. All rights reserved."
+    "phone_value": "+90 544 488 87 75",
+    "youtube_value": "@AmmarAlaee",
+    "instagram_value": "@AmmarAlaee",
+    "footer_text": "© 2025 Ammar Hussein Alaee. All rights reserved."
   },
   "ar": {
     "title": "عمار العي - مطور برمجيات",
@@ -46,10 +49,13 @@
     "projects_title": "مشاريعي",
     "contact_title": "تواصل معي",
     "contact_name": "الاسم الكامل",
-    "contact_name_value": "عمار العي",
+    "contact_name_value": "عمار حسين العي",
     "contact_age": "العمر",
     "contact_age_value": "19",
-    "footer_text": "© 2025 عمار العي. جميع الحقوق محفوظة."
+    "phone_value": "75 87 488 544 90+",
+    "youtube_value": "AmmarAlaee@",
+    "instagram_value": "AmmarAlaee@",
+    "footer_text": "© 2025 عمار حسين العي. جميع الحقوق محفوظة."
   },
   "tr": {
     "title": "Ammar Alaee - Yazılım Geliştirici",
@@ -72,9 +78,12 @@
     "projects_title": "Projelerim",
     "contact_title": "İletişime Geçin",
     "contact_name": "Tam Adı",
-    "contact_name_value": "Ammar Alaee",
+    "contact_name_value": "Ammar Hussein Alaee",
     "contact_age": "Yaş",
     "contact_age_value": "19",
-    "footer_text": "© 2025 Ammar Alaee. Tüm hakları saklıdır."
+    "phone_value": "+90 544 488 87 75",
+    "youtube_value": "@AmmarAlaee",
+    "instagram_value": "@AmmarAlaee",
+    "footer_text": "© 2025 Ammar Hussein Alaee. Tüm hakları saklıdır."
   }
 }

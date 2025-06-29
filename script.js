@@ -64,14 +64,70 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Projects Data & Generation ---
     const projects = [
-        { title: "E-Commerce Platform", description: "A full-featured e-commerce platform built with .NET Core and Angular, including payment gateway integration.", image: "https://via.placeholder.com/400x250/e53935/ffffff?text=E-Commerce", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
-        { title: "Inventory Management System", description: "A desktop application using Windows Forms and SQL Server for managing stock, sales, and reporting.", image: "https://via.placeholder.com/400x250/3949ab/ffffff?text=Inventory+System", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
-        { title: "Task Management App", description: "A responsive web app developed with Flask and React for organizing team tasks and projects.", image: "https://via.placeholder.com/400x250/43a047/ffffff?text=Task+Manager", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
-        { title: "Data Visualization Dashboard", description: "A dashboard for visualizing sales data using Python (Django) on the backend and D3.js on the frontend.", image: "https://via.placeholder.com/400x250/fb8c00/ffffff?text=Data+Dashboard", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
-        { title: "Blogging Platform API", description: "A RESTful API built with ASP.NET Web API for a modern blogging platform, featuring JWT authentication.", image: "https://via.placeholder.com/400x250/6d4c41/ffffff?text=Blog+API", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
-        { title: "Recipe Finder App", description: "A mobile-friendly recipe application using an external API, built with Vanilla JavaScript and a clean UI.", image: "https://via.placeholder.com/400x250/8e24aa/ffffff?text=Recipe+App", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
-        { title: "University Portal", description: "A database-driven portal for a university, designed with complex relational schemas and managed with SQL Server.", image: "https://via.placeholder.com/400x250/00897b/ffffff?text=University+Portal", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
-        { title: "Weather Forecast App", description: "A clean and simple weather application that fetches data from a third-party API based on user's location.", image: "https://via.placeholder.com/400x250/546e7a/ffffff?text=Weather+App", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
+        { 
+            title: "Library System",
+            description: "This project is a full-stack desktop application for library management, built with the .NET Framework, Windows Forms, ADO.NET, and SQL Server. It features user authentication, role-based access control, CRUD operations for various entities (students, employees, books, borrows, departments), barcode scanning for book information via an ISBN API, and employee task management. The system follows a 3-tier architecture for modularity and maintainability.",
+            image: "files/iconBig.png", 
+            codeUrl: "https://github.com/I3mk132/Library_System", 
+            videoUrl: "https://youtu.be/0r-tLO0CeWI?si=qyQ5HAvtT58--rpT", 
+            liveUrl: "https://drive.google.com/drive/folders/1I3ow0r2UVJgDYdAChMgbD66SKLENjTXJ?usp=sharing" 
+        },
+        { 
+            title: "Password Manager", 
+            description: "A simple yet functional desktop Password Manager built using WinForms, ADO.NET, and SQL Server. This application helps users store, retrieve, and manage their passwords securely. It includes a built-in password generator and supports user Sign Up / Login with password hashing for security.", 
+            image: "files/PasswordManagerIcon.png", 
+            codeUrl: "https://github.com/I3mk132/PasswordManagerApp", 
+            videoUrl: "https://youtu.be/axG-8PUiGKM", 
+            liveUrl: "https://drive.google.com/drive/folders/1DOtKUJ034d809GMWZiePg4cNt8f6_gWN?usp=sharing" 
+        },
+        { 
+            title: "Tic Tac Toe Game", 
+            description: "The \"XOproject\" is a Tic-Tac-Toe game with a graphical user interface. It allows two players to place \"X\" or \"O\" marks on a 3x3 board, checks for win conditions and draws, and displays the current player and game status. Users can restart the game or exit the application.", 
+            image: "files/TicTacToe.png", 
+            codeUrl: "https://github.com/I3mk132/TicTacToe", 
+            videoUrl: "https://youtu.be/R_axNNOZ6uA", 
+            liveUrl: "https://drive.google.com/drive/folders/1v643iPWOr-0JWvtSYZjgshSTOP9yZnsY?usp=sharing" 
+        },
+        { 
+            title: "Pizza cashier project", 
+            description: "This Windows Forms application simulates a pizza ordering system. Users can select pizza size (Small, Medium, Large), crust type (Thin, Thick), and various toppings (Extra Cheese, Mushrooms, Tomatoes, Onions, Olives, Green Papers). It also allows choosing between \"Eat In\" or \"Take Out\". The app dynamically calculates the total price based on selections. Orders can be confirmed, and the form can be reset for new orders.", 
+            image: "files/pizza.png", 
+            codeUrl: "https://github.com/I3mk132/PizzaCashierProject", 
+            videoUrl: "https://youtu.be/0O_cFqAH22o", 
+            liveUrl: "https://drive.google.com/drive/folders/1hDtiRR47J6tRsO1mgcfgfHpwil59ewal?usp=sharing" 
+        },
+        { 
+            title: "Simple calculator project", 
+            description: "This project is a Windows Forms application written in C# that functions as a calculator with basic arithmetic operations (addition, subtraction, multiplication, and division). It also has a unit converter feature implied by its name \"CalculatorWithUnitConverter\" and the design of its form, though the provided code snippets mainly show the calculator functionality.", 
+            image: "files/Calculator.png", 
+            codeUrl: "https://github.com/I3mk132/Calculator", 
+            videoUrl: "https://youtu.be/tssI8oMQ3EE", 
+            liveUrl: "https://drive.google.com/drive/folders/1psAGM_JKzEeSuGMf1oH_ur10noQD1o-t?usp=sharing"
+        },
+        { 
+            title: "Rock Paper Scissors Project", 
+            description: "This is a command-line Rock-Paper-Scissors game in C++. You play against the computer, and the winner is decided after a set number of rounds.", 
+            image: "files/rock-paper-scissors.png", 
+            codeUrl: "https://github.com/I3mk132/RockPaperScissersV1.0", 
+            videoUrl: "https://youtu.be/6nWdn3yAmvc", 
+            liveUrl: "https://drive.google.com/drive/folders/1Lan0Lcmffb7XATYnnTE6zAEH-LMBa_KG?usp=sharing" 
+        },
+        { 
+            title: "Timed Math Game Project", 
+            description: "This is a command-line math quiz game written in C++. You can customize the number of questions, difficulty, and type of math problems. After you answer the questions, it tells you your score and if you passed.", 
+            image: "files/math.png", 
+            codeUrl: "https://github.com/I3mk132/MathConsoleGame", 
+            videoUrl: "https://youtu.be/Qh2gcT2nstY", 
+            liveUrl: "https://drive.google.com/drive/folders/1ADe13ul-fIHpMu_mz_rnoXjD5DI15vmP?usp=sharing" 
+        },
+        { 
+            title: "Bank System Project", 
+            description: "Console Bank Project DescriptionThis C++ project is a console-based banking application that simulates a real-world banking environment through a command-line interface. It's built around several key functionalities:Client and Account ManagementThe system provides full CRUD (Create, Read, Update, Delete) operations for bank clients. Users can add new clients, view a list of all clients, update their information, find specific clients, and delete them from the system. All client data, including personal details and account balances, is stored in a Clients.txt file.Transaction HandlingIt supports essential banking transactions such as depositing and withdrawing money from accounts. It also features a funds transfer mechanism between two accounts and maintains a detailed log of all transfer activities for auditing in a TransferLog.txt file.User and Permissions SystemThe application includes a multi-user system where administrators can manage users. Each user has specific permissions that restrict their access to certain functionalities, such as managing clients or performing transactions. This is defined in the clsUser class. Login attempts are also recorded in Log.txt.Currency ExchangeA dedicated module handles currency-related operations. It can list various currencies, find currencies by code or country, update exchange rates, and includes a calculator to convert amounts between different currencies. The currency data is stored in Currencies.txt.", 
+            image: "files/bank.png", 
+            codeUrl: "https://github.com/I3mk132/ConsoleBankProject", 
+            videoUrl: "https://youtu.be/j9SWfiAekO8", 
+            liveUrl: "https://drive.google.com/drive/folders/1iEavGdN-cgsEaYxb2ZyNYtDn2oPpin4o?usp=sharing" 
+        },
         { title: "Portfolio Website Template", description: "The very portfolio you are looking at, built with HTML, CSS, and vanilla JavaScript.", image: "https://via.placeholder.com/400x250/d81b60/ffffff?text=Portfolio", codeUrl: "#", videoUrl: "#", liveUrl: "#" },
         { title: "Chat Application", description: "A real-time chat application using SignalR on the .NET backend for instant messaging.", image: "https://via.placeholder.com/400x250/039be5/ffffff?text=Chat+App", codeUrl: "#", videoUrl: "#", liveUrl: "#" }
     ];

@@ -297,7 +297,7 @@ body.dark-mode .project-card:hover {
 }
 .project-card img {
     width: 100%;
-    height: 220px;
+    height: 300px;
     object-fit: cover;
 }
 .project-card-info {
